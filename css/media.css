@@ -1,0 +1,190 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.logo>a{
+		font-size: 48px;
+	}
+	.phone_and_mail{
+		padding: 13px 0px;
+		font-size: 13px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.icon{
+		display: inline-block;
+	}
+	.navbar{
+		position: fixed;
+		display: none;
+		left: 0;
+		right: 0;
+		background-color: rgba(0,0,0,0.8);
+		z-index: 9999;
+		overflow-x: hidden;
+	}
+	.navbar_list.navbar-open .icon span:nth-child(1){
+		top: 18px;
+		width: 0%;
+		right: 50%;
+	}
+	.navbar_list.navbar-open .icon span:nth-child(2){
+		transform: rotate(45deg);
+	}
+	.navbar_list.navbar-open .icon span:nth-child(3){
+		transform: rotate(-45deg);
+	}
+	.navbar_list.navbar-open .icon span:nth-child(4){
+		top: 18px;
+		width: 0%;
+		right: 50%;
+	}
+	.navbar_list.navbar-open .navbar{
+		display: block;
+	}
+	.navbar>ul>li>a{
+		display: block;
+		padding: 10px 0;
+		text-align: center;
+		color: #fff;
+	}
+	.adaptiv_menu{
+		padding: 25px;
+	}
+	.phone_and_mail{
+		display: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.navbar>ul{
+		padding: 0;
+	}
+	.repair_man{
+		margin: 0;
+	}
+	.input_form{
+		padding: 0;
+	}
+	.icon{
+		display: inline-block;
+	}
+	.navbar{
+		position: fixed;
+		display: none;
+		left: 0;
+		right: 0;
+		background-color: rgba(0,0,0,0.8);
+		z-index: 9999;
+		overflow-x: hidden;
+	}
+	.navbar_list.navbar-open .icon span:nth-child(1){
+		top: 18px;
+		width: 0%;
+		right: 50%;
+	}
+	.navbar_list.navbar-open .icon span:nth-child(2){
+		transform: rotate(45deg);
+	}
+	.navbar_list.navbar-open .icon span:nth-child(3){
+		transform: rotate(-45deg);
+	}
+	.navbar_list.navbar-open .icon span:nth-child(4){
+		top: 18px;
+		width: 0%;
+		right: 50%;
+	}
+	.navbar_list.navbar-open .navbar{
+		display: block;
+	}
+	.navbar>ul>li>a{
+		display: block;
+		padding: 10px 0;
+		text-align: center;
+		color: #fff;
+	}
+	.adaptiv_menu{
+		padding: 25px;
+	}
+	.phone_and_mail{
+		display: none;
+	}
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	.help_form, .about_wrap{
+		text-align: center
+	}
+	.contact_p{
+		padding: 0;
+		margin: 0;
+	}
+	.contacts{
+		min-height: 400px
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.input_form{
+		padding: 0;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.phone_and_mail{
+		font-size: 13px;
+		padding: 10px 0px;
+	}
+}
